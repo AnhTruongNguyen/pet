@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  color: #555;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Add your css into here*/
+.fl_left {
+  float: left;
+}
+
+.fl_right {
+  float: right;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Poppins", "Inter", sans-serif;
+}
+
+.header {
+  align-items: center;
+  padding-top: 50px;
+  font-family: "Inter";
+  display: flex;
+  justify-content: space-between;
+}
+.header-auth {
+  text-transform: capitalize;
+  gap: 0 58px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  align-items: center;
+}
+.header-auth .signIn {
+  color: #F7AA28;
+}
+.header-auth .signUp {
+  color: #fff;
+  border-radius: 20px;
+  padding: 13px 33px;
+  background-color: #000;
+  border-radius: 20px;
+}
+.header .logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000958;
+}
+
+.menu {
+  display: flex;
+  gap: 0 40px;
+}
+.menu a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7A6E7A;
+}
+.menu a:hover {
+  color: #000958;
+  font-weight: 600;
+}
+
+.banner {
+  gap: 0 50px;
+  display: flex;
+  font-family: "Poppins";
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+.banner-content {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.banner-content .title {
+  position: relative;
+  width: 545px;
+}
+.banner-content .title h1 {
+  padding-top: 30px;
+  position: absolute;
+  font-size: 64px;
+  font-weight: 600;
+  color: #000958;
+}
+.banner-content .title img {
+  float: right;
+}
+.banner-content p {
+  margin-top: 100px;
+  width: 545px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #7A6E7A;
+}
+.banner-btn {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  gap: 0 31px;
+}
+.banner-btn .btn-book {
+  font-size: 18px;
+  padding: 16px 38px;
+  background-color: #F8AB28;
+  color: #fff;
+  border-radius: 21px;
+}
+.banner-btn .btn-call {
+  gap: 0 5px;
+  display: flex;
+  align-items: center;
+  color: #7A6E7A;
+}
+.banner-img {
+  position: relative;
+}
+.banner-img .tag {
+  position: absolute;
+  padding: 7px 36px 7px 8px;
+  display: inline-flex;
+  gap: 0 7px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.banner-img .tag h4 {
+  font-size: 14px;
+}
+.banner-img .tag-pet {
+  top: 216px;
+  left: -30px;
+}
+.banner-img .tag-vac {
+  top: 453px;
+  left: 366px;
+}
+
+/*# sourceMappingURL=style.css.map */

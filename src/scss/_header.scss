@@ -1,0 +1,48 @@
+.header {
+    align-items: center;
+    padding-top: 50px;
+    font-family: "Inter";
+    display: flex;
+    justify-content: space-between;
+    &-auth {
+        text-transform: capitalize;
+        gap: 0 58px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        align-items: center;
+        .signIn {
+            color: #F7AA28;
+        }
+        .signUp {
+            color: #fff;
+            border-radius: 20px;
+            padding: 13px 33px;
+            background-color: #000;
+            border-radius: 20px;
+
+        }
+
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: 600;
+        color: $heading-color;
+       
+       
+        
+    }
+}
+.menu { 
+    display: flex;
+    gap: 0 40px;
+    a {
+        font-weight: 400;
+        font-size: 20px;
+        color: #7A6E7A;
+        &:hover {
+            color: $heading-color;
+            font-weight: 600;
+        }
+    }
+}
