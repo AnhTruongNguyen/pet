@@ -1,0 +1,32 @@
+.care {
+    padding-top: 200px;
+    display: flex;
+    gap: 0 91px;
+    align-items: center;
+    &-content {
+        .content-title {
+            p {
+                padding-top: 22px;
+                font-size: 18;
+                color: #7A6E7A;
+                line-height: calc(30/18);
+            }
+        }
+        .content-tag {
+            padding-top: 50px;
+           
+            .tag {
+                gap: 0 15px;
+                align-items: center;
+                display: flex;
+
+                p {
+                    color: #7A6E7A;
+                }
+            }
+            .tag:nth-child(2) {
+                padding: 27px 0;
+            }
+        }
+    }
+}

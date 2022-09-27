@@ -1,0 +1,39 @@
+.total {
+    padding-top: 20px;
+    position: relative;
+    font-family: "Inter";
+    display: flex;
+    align-items: center;
+    gap: 0 106px;
+    &-img {
+        position: absolute;
+    }
+    &-content {
+        align-items: center;
+        border-radius: 36px;
+        padding: 70px 116px 68px 459px;
+        display: flex;
+        gap: 0 71px;
+        background-color: #1F2130;
+    }
+    &-number { 
+        h3 {
+            color: #fff;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: calc(50 / 40);
+        }
+        p {  
+            color: #EDEDED;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: calc(30 / 18);
+        }
+    }
+    &-number:nth-child(2) {
+        padding: 10px 71px;
+        border-left: 1px solid #695454;
+        border-right: 1px solid #695454;
+    }
+
+}

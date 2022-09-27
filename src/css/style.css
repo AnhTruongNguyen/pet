@@ -99,6 +99,13 @@ body {
   font-family: "Poppins", "Inter", sans-serif;
 }
 
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000958;
+}
+
 .header {
   align-items: center;
   padding-top: 50px;
@@ -219,6 +226,70 @@ body {
 .banner-img .tag-vac {
   top: 453px;
   left: 366px;
+}
+
+.total {
+  padding-top: 20px;
+  position: relative;
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+  gap: 0 106px;
+}
+.total-img {
+  position: absolute;
+}
+.total-content {
+  align-items: center;
+  border-radius: 36px;
+  padding: 70px 116px 68px 459px;
+  display: flex;
+  gap: 0 71px;
+  background-color: #1F2130;
+}
+.total-number h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.total-number p {
+  color: #EDEDED;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6666666667;
+}
+.total-number:nth-child(2) {
+  padding: 10px 71px;
+  border-left: 1px solid #695454;
+  border-right: 1px solid #695454;
+}
+
+.care {
+  padding-top: 200px;
+  display: flex;
+  gap: 0 91px;
+  align-items: center;
+}
+.care-content .content-title p {
+  padding-top: 22px;
+  font-size: 18;
+  color: #7A6E7A;
+  line-height: 1.6666666667;
+}
+.care-content .content-tag {
+  padding-top: 50px;
+}
+.care-content .content-tag .tag {
+  gap: 0 15px;
+  align-items: center;
+  display: flex;
+}
+.care-content .content-tag .tag p {
+  color: #7A6E7A;
+}
+.care-content .content-tag .tag:nth-child(2) {
+  padding: 27px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
