@@ -1,22 +1,30 @@
 .total {
+    display: flex;
     padding-top: 20px;
     position: relative;
     font-family: "Inter";
-    display: flex;
     align-items: center;
-    gap: 0 106px;
+   
     &-img {
         position: absolute;
     }
     &-content {
         align-items: center;
         border-radius: 36px;
-        padding: 70px 116px 68px 459px;
-        display: flex;
+        padding: 60px 116px 42px 459px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 0 71px;
         background-color: #1F2130;
     }
     &-number { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: max-content;
+
+       
         h3 {
             color: #fff;
             font-size: 40px;
@@ -31,9 +39,10 @@
         }
     }
     &-number:nth-child(2) {
-        padding: 10px 71px;
+        padding: 18px 71px;
         border-left: 1px solid #695454;
         border-right: 1px solid #695454;
     }
+  
 
 }

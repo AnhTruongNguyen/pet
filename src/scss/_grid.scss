@@ -1,0 +1,28 @@
+.grid {
+    
+    max-height: 950px;
+    display: grid;
+    gap: 10px;    
+    width: 90%;
+    margin: 30px auto;
+    .img1 {
+        grid-area: 1/ 1/ 4/ 6;
+        width: 100%;
+       
+    }
+    .img2 {
+        grid-area: 1 /6/3/12;
+        width: 100%;
+       
+    }
+    .img3 {
+        grid-area: 4/1/6/7;
+        width: 100%;
+       
+    }
+    .img4 {
+        grid-area: 3/7/6/12;
+        width: 100%;
+        
+    }
+}
